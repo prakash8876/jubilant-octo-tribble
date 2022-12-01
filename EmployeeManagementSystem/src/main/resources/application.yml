@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: employee-management-system
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:ORCL
+    username: system
+    password: orcl
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+logging:
+  level:
+    io.matoshri.employee: DEBUG
