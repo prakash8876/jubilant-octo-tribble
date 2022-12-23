@@ -1,0 +1,5 @@
+spring:
+  mv:
+    suffix: .jsp
+  mvc:
+    prefix: /WEB-INF/jsp/
